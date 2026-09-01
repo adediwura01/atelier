@@ -1,0 +1,15 @@
+.image-reveal {
+  overflow: hidden;
+}
+
+.image-reveal__inner {
+  width: 100%;
+  height: 100%;
+}
+
+.image-reveal__inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
