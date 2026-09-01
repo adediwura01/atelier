@@ -13,9 +13,9 @@
   --space-xs: 0.5rem;
   --space-sm: 1rem;
   --space-md: 2rem;
-  --space-lg: 4rem;
-  --space-xl: 8rem;
-  --space-2xl: 12rem;
+  --space-lg: 3rem;
+  --space-xl: 5rem;
+  --space-2xl: 8rem;
 
   --container-max: 1440px;
   --container-padding: 2rem;
@@ -132,5 +132,7 @@ ol {
     --container-padding: 1.25rem;
     --text-5xl: 3.5rem;
     --text-6xl: 4.5rem;
+    --space-xl: 3rem;
+    --space-lg: 2rem;
   }
 }
