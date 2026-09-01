@@ -39,6 +39,7 @@ export default function Studio() {
             label="Studio"
             title="Atelier '09"
             align="left"
+            level="h1"
           />
           <div className="studio__hero-text">
             <p>

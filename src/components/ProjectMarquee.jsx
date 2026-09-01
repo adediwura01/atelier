@@ -76,6 +76,8 @@ export default function ProjectMarquee({ projects }) {
         <div
           className="project-marquee__image"
           style={{ backgroundImage: `url(${project.heroImage})` }}
+          role="img"
+          aria-label={`${project.title} - ${project.location}`}
         ></div>
       </div>
       <div className="project-marquee__meta">

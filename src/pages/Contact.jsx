@@ -58,6 +58,7 @@ export default function Contact() {
           label="Enquiry"
           title="Start a Conversation"
           align="left"
+          level="h1"
         />
 
         <div className="contact__grid">

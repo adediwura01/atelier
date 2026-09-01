@@ -28,6 +28,8 @@ export default function ProjectDetail() {
         <div
           className="project-detail__hero-image"
           style={{ backgroundImage: `url(${project.heroImage})` }}
+          role="img"
+          aria-label={`${project.title} - ${project.location}`}
         ></div>
         <div className="project-detail__hero-content container">
           <motion.div

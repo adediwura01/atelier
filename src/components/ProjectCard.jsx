@@ -15,6 +15,8 @@ export default function ProjectCard({ project, index }) {
           <div
             className="project-card__image"
             style={{ backgroundImage: `url(${project.heroImage})` }}
+            role="img"
+            aria-label={`${project.title} - ${project.location}`}
           ></div>
           <div className="project-card__overlay"></div>
         </div>

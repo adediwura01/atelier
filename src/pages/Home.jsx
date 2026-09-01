@@ -24,6 +24,8 @@ export default function Home() {
         <div
           className="hero__image"
           style={{ backgroundImage: 'url(/images/hero-bg1.jpg)' }}
+          role="img"
+          aria-label="Atelier '09 architecture studio hero image"
         ></div>
         <div className="hero__overlay"></div>
         <div className="container">

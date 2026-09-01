@@ -20,6 +20,7 @@ export default function Projects() {
           label="Archive"
           title="All Projects"
           align="left"
+          level="h1"
         />
 
         <div className="projects__filters">
