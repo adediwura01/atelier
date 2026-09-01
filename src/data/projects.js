@@ -71,11 +71,11 @@ export const projects = [
     category: "Interiors",
     description:
       "A residential interior that reinterprets the traditional courtyard house for contemporary living. Central voids bring light deep into the plan, while detailed joinery and material selection define each space.",
-    heroImage: "/images/lagos-courtyard-hero.png",
+    heroImage: "/images/lagos-courtyard-hero.jpg",
     gallery: [
-      "/images/lagos-courtyard-1.png",
-      "/images/lagos-courtyard-2.png",
-      "/images/lagos-courtyard-3.png",
+      "/images/lagos-courtyard-1.jpg",
+      "/images/lagos-courtyard-2.jpg",
+      "/images/lagos-courtyard-3.jpg",
     ],
     stats: {
       area: "280 sqm",
