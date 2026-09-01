@@ -123,6 +123,10 @@
     aspect-ratio: 3 / 2;
   }
 
+  .project-marquee__image {
+    filter: grayscale(0%);
+  }
+
   .project-marquee__details {
     flex-wrap: wrap;
     gap: 0.5rem;

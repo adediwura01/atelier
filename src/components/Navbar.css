@@ -4,9 +4,17 @@
   left: 0;
   right: 0;
   z-index: 100;
-  background: transparent;
+  background: rgba(245, 245, 242, 0.85);
   border-bottom: 1px solid transparent;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   transition: background var(--transition-medium), border-color var(--transition-medium);
+}
+
+.navbar.is-home {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 .navbar.is-scrolled {
